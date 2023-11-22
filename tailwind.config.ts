@@ -15,10 +15,38 @@ const tailwindConfig: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        sans: ["var(--font-urbanist)"],
+      },
+      colors: {
+        white: "#ffffff",
+        lightOrange: "#FEB273",
+        orange: "#FB6514",
+        lightGrey: "#9090A7",
+        darkGrey: "#171717",
+      },
     },
   },
-  plugins: [nextui()],
-  darkMode: "class",
+  plugins: [
+    nextui({
+      themes: {
+        light: {
+          colors: {
+            background: "#FFFFFF",
+            foreground: "#11181C",
+            primary: {
+              foreground: "#FFFFFF",
+              DEFAULT: "#000000",
+            },
+            secondary: {
+              foreground: "#FFFFFF",
+              DEFAULT: "#FB6514",
+            },
+          },
+        },
+      },
+    }),
+  ],
 };
 
 export default tailwindConfig;
