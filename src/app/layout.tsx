@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Urbanist, Vast_Shadow } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
-import Script from "next/script";
 
 const vastShadow = Vast_Shadow({
   weight: ["400"],
@@ -25,15 +24,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className={`${vastShadow.variable} ${urbanist.variable}`}>
       <head></head>
       <body>
         <Providers>
-          <main className="pt-12"> {children}</main>
+          <main className="max-w-5xl my-0 mx-auto leading-4"> {children}</main>
         </Providers>
       </body>
     </html>
