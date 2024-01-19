@@ -42,8 +42,8 @@ const skillsData = [
 export default function Skills() {
   return (
     <div className="flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-orange-500 mb-5 text-center text-4xl sm:text-2xl font-semibold tracking-tight whitespace-nowrap">
-        I specialize in a range of skills:
+      <header className="text-large text-orange-500 mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
+        I specialize in a range of skills
       </header>
       <div className="grid grid-cols-3 sm:grid-cols-2 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
         {skillsData.map((skill, index) => (

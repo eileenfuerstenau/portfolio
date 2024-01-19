@@ -21,11 +21,11 @@ export const SkillCard = (props: SkillCardProps) => {
             alt={`${iconDescription} Icon`}
           />
           <div className="flex flex-col gap-1 items-start justify-center">
-            <h4 className="font-semibold">{title}</h4>
+            <h4 className="text-medium font-semibold">{title}</h4>
           </div>
         </div>
       </CardHeader>
-      <CardBody className="px-3 py-0 text-small text-default-400">
+      <CardBody className="px-3 py-0 text-small">
         <p>{content}</p>
       </CardBody>
     </Card>

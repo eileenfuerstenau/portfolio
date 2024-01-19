@@ -26,13 +26,17 @@ const projectData = [
 export default function Projects() {
   return (
     <div className="bg-heroBlock flex w-full flex-col relative justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-white mb-5 text-center text-4xl sm:text-2xl font-semibold tracking-tight whitespace-nowrap">
+      <header className="text-large text-white mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
         Explore some of my projects
       </header>
       <div className="flex sm:flex-col justify-center sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
-      {projectData.map((project, index) => (
-        <ProjectCard key={index} title={project.title} projectDescription={project.projectDescription} />
-      ))}
+        {projectData.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            projectDescription={project.projectDescription}
+          />
+        ))}
       </div>
     </div>
   );

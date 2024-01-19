@@ -8,10 +8,10 @@ function Contact() {
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/653b73aa2aba186a7ee4978739b678c77fe939c0cf053d73327de19faf7cc018?apiKey=d39fb1cd258e4599b80cc57ef86d660a&"
         className="absolute h-full w-full object-cover object-center inset-0"
       />
-      <header className="relative text-orange-500 text-center text-4xl font-semibold leading-9 tracking-tight mt-16 max-md:mt-10">
+      <header className="relative text-orange-500 text-center font-semibold tracking-tight mt-16 max-md:mt-10">
         Contact Me
       </header>
-      <div className="relative text-white text-center text-4xl font-light leading-10 tracking-tight self-center w-[1161px] max-w-[1118px] mt-12 max-md:max-w-full max-md:mt-10">
+      <div className="relative text-white text-center font-light tracking-tight self-center w-[1161px] max-w-[1118px] mt-12 max-md:max-w-full max-md:mt-10">
         If my words or work have inspired you in any way, feel free to reach
         out. I'm always open to new experiences, learning, and creating.
         <br />
@@ -27,7 +27,7 @@ function Contact() {
             className="aspect-[1.03] object-contain object-center w-[31px] fill-white overflow-hidden shrink-0 max-w-full"
             alt="LinkedIn"
           />
-          <div className="text-white text-2xl tracking-tight self-center grow whitespace-nowrap my-auto">
+          <div className="text-white tracking-tight self-center grow whitespace-nowrap my-auto">
             Follow me on LinkedIn
           </div>
         </div>
@@ -38,7 +38,7 @@ function Contact() {
             className="aspect-square object-contain object-center w-7 fill-white overflow-hidden shrink-0 max-w-full"
             alt="GitHub"
           />
-          <div className="text-white text-2xl tracking-tight self-center grow whitespace-nowrap my-auto">
+          <div className="text-white tracking-tight self-center grow whitespace-nowrap my-auto">
             Follow me on GitHub
           </div>
         </div>
@@ -50,11 +50,11 @@ function Contact() {
         alt="Connect"
       />
       <div className="relative justify-between items-stretch flex w-full gap-5 mt-3.5 px-px max-md:max-w-full max-md:flex-wrap">
-        <div className="justify-center text-gray-50 text-6xl font-semibold tracking-tighter grow shrink basis-auto max-md:max-w-full max-md:text-4xl">
+        <div className="justify-center text-gray-50  font-semibold tracking-tighter grow shrink basis-auto max-md:max-w-full max-md:text-4xl">
           Lets Connect there
         </div>
         <div className="justify-center items-center bg-orange-500 self-center flex gap-0 my-auto px-9 py-2.5 rounded-[60px] max-md:px-5">
-          <div className="text-white text-2xl font-medium tracking-tight grow whitespace-nowrap my-auto">
+          <div className="text-white font-medium tracking-tight grow whitespace-nowrap my-auto">
             Hire me
           </div>
           <img

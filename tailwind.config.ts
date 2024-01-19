@@ -16,13 +16,18 @@ const tailwindConfig: Config = {
       md: { max: "767px" },
       sm: { max: "639px" },
     },
+    fontSize: {
+      small: ["1rem", "1.25rem"],
+      medium: ["1.25rem", "1.5rem"],
+      large: ["1.5rem", "2rem"],
+    },
     extend: {
       backgroundImage: {
         hero: "url('/heroLines.svg')",
         heroBlock: "url('/heroBlock.svg')",
       },
       fontFamily: {
-        sans: ["var(--font-urbanist)"],
+        urbanist: ["var(--font-urbanist)"],
       },
       colors: {
         white: "#ffffff",
@@ -30,6 +35,11 @@ const tailwindConfig: Config = {
         orange: "#FB6514",
         lightGrey: "#9090A7",
         darkGrey: "#171717",
+      },
+      lineHeight: {
+        large: "2rem",
+        medium: "1.5rem",
+        small: "1rem",
       },
     },
   },

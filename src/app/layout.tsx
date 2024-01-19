@@ -1,21 +1,6 @@
 import type { Metadata } from "next";
-import { Urbanist, Vast_Shadow } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
-
-const vastShadow = Vast_Shadow({
-  weight: ["400"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-vastShadow",
-});
-
-const urbanist = Urbanist({
-  weight: ["400"],
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-urbanist",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,11 +13,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${vastShadow.variable} ${urbanist.variable}`}>
+    <html lang="en">
       <head></head>
       <body>
         <Providers>
-          <main className="max-w-5xl my-0 mx-auto leading-4"> {children}</main>
+          <main className="max-w-5xl my-0 mx-auto font-urbanist text-small">
+            {" "}
+            {children}
+          </main>
         </Providers>
       </body>
     </html>
