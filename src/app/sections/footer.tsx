@@ -32,7 +32,7 @@ function Footer() {
           <p className="py-5 text-large text-white">Lets connect!</p>
           <ButtonComponent
             linkUrl="https://www.linkedin.com/in/eileen-f%C3%BCrstenau-profile/"
-            variant="bordered"
+            variant="solid"
             endContent={
               <Image src={"arrowIcon.svg"} width={20} height={20} alt="Icon" />
             }
