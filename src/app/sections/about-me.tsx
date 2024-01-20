@@ -3,10 +3,10 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="bg-gray-100 flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-large text-orange-500 mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
+      <header className="text-large mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
         About Me
       </header>
-      <div className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
+      <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
         <span>My name is Eileen and I am a creative and determined </span>
         <span className="font-semibold">web developer</span>
         <span>
@@ -14,7 +14,7 @@ function AboutMe() {
           constantly seeking innovative ways to blend design and technology.
           I&apos;m passionate about{" "}
         </span>
-        <span className="font-semibold">agile methods</span>
+        <span className="font-semibold">agile methods</span>{" "}
         <span>
           and fostering functional project teams. My technological focus lies in{" "}
         </span>
@@ -22,7 +22,7 @@ function AboutMe() {
         <span>
           , with a keen eye for user-centered interfaces and accessibility.{" "}
         </span>
-      </div>
+      </p>
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Headline() {
           teams.
         </div>
         <header
-          className="text-large text-white text-center text-testing font-semibold tracking-tighter self-center max-w-[541px] max-md:max-w-full max-md:leading-10"
+          className="text-xlarge text-white text-center text-testing font-semibold tracking-tighter self-center max-w-[541px] max-md:max-w-full max-md:leading-10"
           aria-label="Headline Title"
         >
           Let pixels party!

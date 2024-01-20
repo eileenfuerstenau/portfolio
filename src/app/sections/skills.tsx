@@ -23,7 +23,7 @@ const skillsData = [
     iconDescription: "learning",
     title: "Education",
     content:
-      "In the rapidly evolving tech world, staying current is key. I regularly update my skills, pursuing certifications like Node.js Application Developer and Azure Fundamentals.",
+      "In the rapidly evolving tech world, staying current is key. I regularly update my skills, pursuing certifications like JSNAD and AZ-900.",
   },
   {
     iconDescription: "leadership",
@@ -45,7 +45,7 @@ export default function Skills() {
       <header className="text-large text-orange-500 mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
         I specialize in a range of skills
       </header>
-      <div className="grid grid-cols-3 sm:grid-cols-2 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="grid grid-cols-3 sm:grid-cols-1 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
         {skillsData.map((skill, index) => (
           <SkillCard
             key={index}

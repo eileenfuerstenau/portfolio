@@ -19,7 +19,7 @@ const experiencesData = [
   {
     subtitle: "Impact",
     content:
-      "Wherever I go and whatever I do, I strive to leave a positive impact. I follow the 'Scout Rule' of software engineering, which is to leave things better than I found them, and apply that principle to every aspect of my life.",
+      "Wherever I go and whatever I do, I strive to leave a positive impact. I follow the Scout Rule of Software Engineering, which is to leave things better than I found them, and apply that principle to every aspect of my life.",
   },
   {
     subtitle: "Happiness",
@@ -34,7 +34,7 @@ export default function LifeExperience() {
       <header className="text-large text-orange-500 mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
         Some thoughts on life
       </header>
-      <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
+      <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10 mb-3">
         I believe that a person&apos;s personal and professional lives are
         inseparable, as we are always whole individuals, regardless of the
         context. Therefore, my personal beliefs and values inevitably influence
@@ -45,7 +45,7 @@ export default function LifeExperience() {
         encountered, and the various influences and inputs that enrich my daily
         life.
       </p>
-      <div className="grid grid-cols-3 sm:grid-cols-2 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="grid grid-cols-3 sm:grid-cols-1 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
         {experiencesData.map((experience, index) => (
           <ExperienceCard
             key={index}
@@ -53,6 +53,11 @@ export default function LifeExperience() {
             content={experience.content}
           />
         ))}
+        <ExperienceCard
+          centeredContent={
+            "I share my thoughts to show people who think like me that they are not alone."
+          }
+        />
       </div>
     </div>
   );

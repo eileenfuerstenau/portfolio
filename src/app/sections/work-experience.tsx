@@ -36,12 +36,6 @@ const experiencesData = [
       "Involvement in various business sectors through practical placements during the dual study program.",
     timePeriod: "09/2012 - 08/2015",
   },
-  {
-    subtitle: " ",
-    title: " ",
-    content: " ",
-    timePeriod: " ",
-  },
 ];
 
 export default function WorkExperience() {
@@ -50,7 +44,7 @@ export default function WorkExperience() {
       <header className="text-large text-orange-500 mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
         Working experience
       </header>
-      <div className="grid grid-cols-3 sm:grid-cols-2 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="grid grid-cols-3 sm:grid-cols-1 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
         {experiencesData.map((experience, index) => (
           <ExperienceCard
             key={index}
@@ -60,6 +54,11 @@ export default function WorkExperience() {
             timePeriod={experience.timePeriod}
           />
         ))}
+        <ExperienceCard
+          centeredContent={
+            "Lets see if we can make something awesome together!"
+          }
+        />
       </div>
     </div>
   );
