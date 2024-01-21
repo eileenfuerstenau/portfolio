@@ -19,8 +19,8 @@ const tailwindConfig: Config = {
     fontSize: {
       small: ["1rem", "1.25rem"],
       medium: ["1.25rem", "1.5rem"],
-      large: ["1.5rem", "2rem"],
-      xlarge: ["1.75rem", "2.25rem"],
+      large: ["1.75rem", "2rem"],
+      xlarge: ["2rem", "2.25rem"],
     },
     extend: {
       backgroundImage: {

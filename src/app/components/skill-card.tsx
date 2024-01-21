@@ -12,8 +12,8 @@ export const SkillCard = (props: SkillCardProps) => {
   const { iconDescription, title, content } = props;
   return (
     <Card className="max-w-[340px] border-none shadow-md p-2 rounded-xl">
-      <CardHeader className="justify-between">
-        <div className="flex flex-col gap-5 sm:w-full sm:items-center">
+      <CardHeader className="p-2 justify-between">
+        <div className="flex flex-col gap-2 sm:w-full sm:items-center">
           <Image
             src={`${iconDescription}Icon.svg`}
             width={30}

@@ -1,11 +1,12 @@
 import React from "react";
-import { Card, CardHeader, CardBody } from "@nextui-org/react";
+import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/react";
 import Image from "next/image";
 
 type ProjectDescription = {
   projectAim: string;
   techStack: string;
   role: string;
+  timePeriod: string;
 };
 
 export type SkillCardProps = {
@@ -17,7 +18,7 @@ export const ProjectCard = (props: SkillCardProps) => {
   const { projectDescription, title } = props;
 
   return (
-    <Card className="max-w-[340px] border-none shadow-md p-2 rounded-xl">
+    <Card className="max-w-[340px] border-none shadow-md p-3 rounded-xl">
       <div>
         <CardHeader className="justify-between">
           <div className="self-center flex w-[472px] max-w-full items-stretch justify-between gap-5 max-md:flex-wrap">
@@ -36,7 +37,7 @@ export const ProjectCard = (props: SkillCardProps) => {
         <CardBody className="px-3 py-0">
           {Object.entries(projectDescription).map(([key, value]) => (
             <div key={key}>
-              <div className="text-medium font-semibold self-stretch mt-3 max-md:max-w-full">
+              <div className="text-small font-semibold self-stretch mt-3 max-md:max-w-full">
                 <ul>
                   <li className="text-orange">
                     {key

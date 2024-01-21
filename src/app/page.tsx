@@ -4,9 +4,9 @@ import Headline from "./sections/headline";
 import Skills from "./sections/skills";
 import Projects from "./sections/projects";
 import WorkExperience from "./sections/work-experience";
-import Image from "next/image";
 import LifeExperience from "./sections/life-experience";
 import Footer from "./sections/footer";
+import { Divider } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <WorkExperience />
-      <Image src={"halloween.svg"} width={10000} height={10000} alt={"joke"} />
+      <Divider className="w-11/12" />
       <LifeExperience />
       <Footer />
     </>

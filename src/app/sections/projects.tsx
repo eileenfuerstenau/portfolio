@@ -9,16 +9,18 @@ const projectData = [
       techStack:
         "TypeScript, Next.js, MUI, styled-components, Nest.js, postgres, Gitlab CI/CD and more.",
       role: "Led the frontend development of a new subproject, setting standards and closely collaborating with architects, developers, and designers.",
+      timePeriod: "08/2023 - 01/2024",
     },
   },
   {
-    title: "German Industrial Company",
+    title: "Manufacturer of Outdoor Power Equipment",
     projectDescription: {
       projectAim:
         "Developing a web platform for a new product line, aiding market entry. Supported dealers and staff, providing product information and configuration options.",
       techStack:
         "TypeScript, React, Nest.js, MUI, styled-components, Azure and more.",
       role: "Contributed to frontend and backend development, ensuring software quality through agile methods and robust testing.",
+      timePeriod: "05/2021 - 12/2022",
     },
   },
 ];
@@ -29,7 +31,7 @@ export default function Projects() {
       <header className="text-large text-white mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
         Explore some of my projects
       </header>
-      <div className="flex sm:flex-col justify-center sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="flex sm:flex-col justify-center pb-1 sm:gap-5 gap-8 self-stretch max-md:max-w-full max-md:mt-10">
         {projectData.map((project, index) => (
           <ProjectCard
             key={index}

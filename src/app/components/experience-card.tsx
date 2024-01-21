@@ -30,9 +30,6 @@ export const ExperienceCard = (props: ExperienceCardProps) => {
       <CardBody className="px-3 py-0 text-white text-large">
         <p>{centeredContent}</p>
       </CardBody>
-      <CardFooter>
-        <p className="text-orange font-semibold">{timePeriod}</p>
-      </CardFooter>
     </Card>
   );
 };

@@ -27,7 +27,7 @@ function Footer() {
         />
         <Divider className="bg-white w-11/12" />
       </div>
-      <div className="bg-black sm:sticky bottom-0 z-10 flex justify-center">
+      <div className="bg-black sm:sticky bottom-0 z-10 flex justify-center w-full">
         <div className="flex justify-around w-11/12 items-center">
           <p className="py-5 text-large text-white">Lets connect!</p>
           <ButtonComponent

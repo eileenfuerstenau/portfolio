@@ -1,3 +1,4 @@
+import { Divider } from "@nextui-org/react";
 import { ExperienceCard } from "../components/experience-card";
 
 const experiencesData = [
@@ -26,7 +27,7 @@ const experiencesData = [
     subtitle: "IBM Deutschland GmbH, Hamburg",
     title: "Master@IBM Student",
     content:
-      "Assisted in sales, orchestrating and executing independent sales projects.",
+      "Contributed to different sales initiatives while also successfully orchestrating and executing independent projects.",
     timePeriod: "09/2015 - 08/2017",
   },
   {
