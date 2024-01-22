@@ -31,7 +31,7 @@ const experiencesData = [
 export default function LifeExperience() {
   return (
     <div className="flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-large text-orange-500 mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
+      <header className="text-isLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
         Some thoughts on life
       </header>
       <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10 mb-3">

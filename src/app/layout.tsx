@@ -17,7 +17,7 @@ export default function RootLayout({
       <head></head>
       <body>
         <Providers>
-          <main className="max-w-5xl my-0 mx-auto font-urbanist text-small flex flex-col justify-center items-center">
+          <main className="max-w-5xl my-0 mx-auto font-urbanist text-small flex flex-col justify-center items-center text-balance">
             {" "}
             {children}
           </main>

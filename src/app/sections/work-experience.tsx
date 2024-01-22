@@ -42,7 +42,7 @@ const experiencesData = [
 export default function WorkExperience() {
   return (
     <div className="flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-large text-orange-500 mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
+      <header className="text-isLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
         Working experience
       </header>
       <div className="grid grid-cols-3 sm:grid-cols-1 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">

@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="bg-gray-100 flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-large mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
+      <header className="text-isLarge mb-5 text-center font-semibold tracking-tight">
         About Me
       </header>
       <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">

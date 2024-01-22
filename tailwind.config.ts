@@ -19,8 +19,8 @@ const tailwindConfig: Config = {
     fontSize: {
       small: ["1rem", "1.25rem"],
       medium: ["1.25rem", "1.5rem"],
-      large: ["1.75rem", "2rem"],
-      xlarge: ["2rem", "2.25rem"],
+      isLarge: ["1.5rem", "1.75rem"],
+      xlarge: ["1.75rem", "2.25rem"],
     },
     extend: {
       backgroundImage: {
@@ -36,11 +36,6 @@ const tailwindConfig: Config = {
         orange: "#FB6514",
         lightGrey: "#9090A7",
         darkGrey: "#171717",
-      },
-      lineHeight: {
-        large: "2rem",
-        medium: "1.5rem",
-        small: "1rem",
       },
     },
   },

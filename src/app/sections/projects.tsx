@@ -2,7 +2,7 @@ import { ProjectCard } from "../components/project-card";
 
 const projectData = [
   {
-    title: "German Debt Collection Service Provider",
+    title: "Debt Collection Service Provider",
     projectDescription: {
       projectAim:
         "Building a digital identity platform catering to B2B needs enabling partners to verify identities and provide necessary proofs for transactions.",
@@ -28,7 +28,7 @@ const projectData = [
 export default function Projects() {
   return (
     <div className="bg-heroBlock flex w-full flex-col relative justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-large text-white mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
+      <header className="text-isLarge text-white mb-5 text-center font-semibold tracking-tight ">
         Explore some of my projects
       </header>
       <div className="flex sm:flex-col justify-center pb-1 sm:gap-5 gap-8 self-stretch max-md:max-w-full max-md:mt-10">

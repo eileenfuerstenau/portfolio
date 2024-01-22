@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div className="bg-black flex w-full flex-col justify-center items-center px-4 pt-6 max-md:max-w-full max-md:px-5">
-        <header className="text-large text-white mb-5 text-center font-semibold tracking-tight whitespace-nowrap">
+        <header className="text-isLarge text-white mb-5 text-center font-semibold tracking-tight">
           Contact Me
         </header>
         <p className="text-medium text-white text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
@@ -29,7 +29,7 @@ function Footer() {
       </div>
       <div className="bg-black sm:sticky bottom-0 z-10 flex justify-center w-full">
         <div className="flex justify-around w-11/12 items-center">
-          <p className="py-5 text-large text-white">Lets connect!</p>
+          <p className="py-5 text-medium text-white">Lets connect!</p>
           <ButtonComponent
             linkUrl="https://www.linkedin.com/in/eileen-f%C3%BCrstenau-profile/"
             variant="solid"
