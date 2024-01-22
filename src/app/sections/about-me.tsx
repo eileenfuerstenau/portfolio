@@ -19,9 +19,7 @@ function AboutMe() {
           and fostering functional project teams. My technological focus lies in{" "}
         </span>
         <span className="font-semibold">frontend development</span>
-        <span>
-          , with a keen eye for user-centered interfaces and accessibility.{" "}
-        </span>
+        <span>, with a keen eye for user-centered interfaces. </span>
       </p>
     </div>
   );
