@@ -10,17 +10,21 @@ const tailwindConfig: Config = {
   ],
   theme: {
     screens: {
-      "2xl": { max: "1535px" },
-      xl: { max: "1279px" },
-      lg: { max: "1023px" },
-      md: { max: "767px" },
-      sm: { max: "639px" },
+      "2xl": { min: "1535px" },
+      xl: { min: "1279px" },
+      lg: { min: "1023px" },
+      md: { min: "767px" },
+      sm: { min: "639px" },
     },
     fontSize: {
       small: ["1rem", "1.25rem"],
+      screenSmall: ["1rem", "1.4rem"],
       medium: ["1.25rem", "1.5rem"],
+      screenMedium: ["1.25rem", "1.75rem"],
       isLarge: ["1.5rem", "1.75rem"],
+      screenLarge: ["1.75rem", "2rem"],
       xlarge: ["1.75rem", "2.25rem"],
+      screenXlarge: ["3rem", "3rem"],
     },
     extend: {
       backgroundImage: {

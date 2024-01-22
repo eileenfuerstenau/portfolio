@@ -31,7 +31,7 @@ const experiencesData = [
 export default function LifeExperience() {
   return (
     <div className="flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-isLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
+      <header className="text-isLarge md:text-screenLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
         Some thoughts on life
       </header>
       <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10 mb-3">
@@ -45,7 +45,7 @@ export default function LifeExperience() {
         encountered, and the various influences and inputs that enrich my daily
         life.
       </p>
-      <div className="grid grid-cols-3 sm:grid-cols-1 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-5 self-stretch max-md:max-w-full max-md:mt-10">
         {experiencesData.map((experience, index) => (
           <ExperienceCard
             key={index}

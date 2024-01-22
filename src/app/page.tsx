@@ -17,7 +17,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <WorkExperience />
-      <Divider className="w-11/12" />
+      <Divider className="sm:mt-4 w-11/12 " />
       <LifeExperience />
       <Footer />
     </>

@@ -15,16 +15,18 @@ export const ExperienceCard = (props: ExperienceCardProps) => {
   return (
     <Card
       className={`${
-        hasCenteredContent && "bg-orange sm:hidden"
+        hasCenteredContent && "bg-orange hidden md:flex"
       } max-w-[340px] border-none shadow-md p-2 rounded-xl`}
     >
       <CardHeader className="justify-between">
         <div className="flex flex-col gap-1 items-start justify-center">
-          <h4 className="text-medium text-orange font-semibold">{title}</h4>
-          <h4 className="font-semibold">{subtitle}</h4>
+          <h2 className="text-medium md:text-screenMedium text-orange font-semibold">
+            {title}
+          </h2>
+          <h3 className="font-semibold">{subtitle}</h3>
         </div>
       </CardHeader>
-      <CardBody className="px-3 py-0 text-small">
+      <CardBody className="px-3 py-0 text-small md:text-screenSmall">
         <p>{content}</p>
       </CardBody>
       <CardBody className="px-3 py-0 text-medium text-white">

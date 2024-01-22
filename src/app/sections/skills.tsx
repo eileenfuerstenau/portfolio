@@ -30,10 +30,10 @@ const skillsData = [
 export default function Skills() {
   return (
     <div className="flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-isLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
+      <header className="text-isLarge md:text-screenLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
         I specialize in a range of skills
       </header>
-      <div className="grid grid-cols-4 sm:grid-cols-1 sm:gap-2 gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-5 self-stretch max-md:max-w-full max-md:mt-10">
         {skillsData.map((skill, index) => (
           <SkillCard
             key={index}

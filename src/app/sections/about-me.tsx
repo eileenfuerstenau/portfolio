@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <div className="bg-gray-100 flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
-      <header className="text-isLarge mb-5 text-center font-semibold tracking-tight">
+      <header className="text-isLarge md:text-screenLarge mb-5 text-center font-semibold tracking-tight">
         About Me
       </header>
       <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
@@ -19,7 +19,7 @@ function AboutMe() {
           and fostering functional project teams. My technological focus lies in{" "}
         </span>
         <span className="font-semibold">frontend development</span>
-        <span>, with a keen eye for user-centered interfaces. </span>
+        <span> with a keen eye for user-centered interfaces. </span>
       </p>
     </div>
   );

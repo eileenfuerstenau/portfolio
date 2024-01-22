@@ -13,7 +13,7 @@ export const SkillCard = (props: SkillCardProps) => {
   return (
     <Card className="max-w-[340px] border-none shadow-md p-2 rounded-xl">
       <CardHeader className="p-2 justify-between">
-        <div className="flex flex-col gap-2 sm:w-full sm:items-center">
+        <div className="flex flex-col gap-2 w-full items-center">
           <Image
             src={`${iconDescription}Icon.svg`}
             width={30}
@@ -21,11 +21,13 @@ export const SkillCard = (props: SkillCardProps) => {
             alt={`${iconDescription} Icon`}
           />
           <div className="flex flex-col gap-1 items-start justify-center">
-            <h4 className="text-medium font-semibold">{title}</h4>
+            <h2 className="text-medium md:text-screenMedium font-semibold">
+              {title}
+            </h2>
           </div>
         </div>
       </CardHeader>
-      <CardBody className="px-3 py-0 text-small">
+      <CardBody className="px-3 text-small md:text-screenSmall">
         <p>{content}</p>
       </CardBody>
     </Card>

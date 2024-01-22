@@ -22,9 +22,9 @@ export const ProjectCard = (props: SkillCardProps) => {
       <div>
         <CardHeader className="justify-between">
           <div className="self-center flex w-[472px] max-w-full items-stretch justify-between gap-5 max-md:flex-wrap">
-            <div className="text-medium text-black font-bold grow shrink basis-auto">
+            <h2 className="text-medium md:text-screenMedium text-black font-bold grow shrink basis-auto">
               {title}
-            </div>
+            </h2>
             <Image
               src={"/codingIcon.svg"}
               width={50}
@@ -34,10 +34,10 @@ export const ProjectCard = (props: SkillCardProps) => {
             />
           </div>
         </CardHeader>
-        <CardBody className="px-3 py-0">
+        <CardBody className="px-3">
           {Object.entries(projectDescription).map(([key, value]) => (
             <div key={key}>
-              <div className="text-small font-semibold self-stretch mt-3 max-md:max-w-full">
+              <div className="text-small md:text-screenSmall font-semibold self-stretch mt-3 max-md:max-w-full">
                 <ul>
                   <li className="text-orange">
                     {key
