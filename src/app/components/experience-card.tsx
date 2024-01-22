@@ -20,7 +20,7 @@ export const ExperienceCard = (props: ExperienceCardProps) => {
     >
       <CardHeader className="justify-between">
         <div className="flex flex-col gap-1 items-start justify-center">
-          <h4 className="text-large text-orange font-semibold">{title}</h4>
+          <h4 className="text-medium text-orange font-semibold">{title}</h4>
           <h4 className="font-semibold">{subtitle}</h4>
         </div>
       </CardHeader>
@@ -30,6 +30,9 @@ export const ExperienceCard = (props: ExperienceCardProps) => {
       <CardBody className="px-3 py-0 text-white text-large">
         <p>{centeredContent}</p>
       </CardBody>
+      <CardFooter>
+        <p className="text-orange font-semibold">{timePeriod}</p>
+      </CardFooter>
     </Card>
   );
 };
