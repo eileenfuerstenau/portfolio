@@ -27,7 +27,7 @@ export const ExperienceCard = (props: ExperienceCardProps) => {
       <CardBody className="px-3 py-0 text-small">
         <p>{content}</p>
       </CardBody>
-      <CardBody className="px-3 py-0 text-white text-isLarge">
+      <CardBody className="px-3 py-0 text-medium text-white">
         <p>{centeredContent}</p>
       </CardBody>
       <CardFooter>
