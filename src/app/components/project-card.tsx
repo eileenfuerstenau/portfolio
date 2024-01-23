@@ -22,9 +22,9 @@ export const ProjectCard = (props: SkillCardProps) => {
       <div>
         <CardHeader className="justify-between">
           <div className="self-center flex w-[472px] max-w-full items-stretch justify-between gap-5 max-md:flex-wrap">
-            <h2 className="text-medium md:text-screenMedium text-black font-bold grow shrink basis-auto">
+            <h3 className="text-medium md:text-screenMedium text-black font-bold grow shrink basis-auto">
               {title}
-            </h2>
+            </h3>
             <Image
               src={"/codingIcon.svg"}
               width={50}
@@ -33,8 +33,9 @@ export const ProjectCard = (props: SkillCardProps) => {
               className="self-start"
               style={{
                 maxWidth: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
           </div>
         </CardHeader>
         <CardBody className="px-3">

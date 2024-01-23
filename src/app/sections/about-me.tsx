@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <div className="bg-gray-100 flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
       <header className="text-isLarge md:text-screenLarge mb-5 text-center font-semibold tracking-tight">
-        About Me
+        <h2>About Me</h2>
       </header>
       <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
         <span>My name is Eileen and I am a creative and determined </span>

@@ -29,7 +29,7 @@ export default function Projects() {
   return (
     <div className="bg-heroBlock flex w-full flex-col relative justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
       <header className="text-isLarge md:text-screenLarge text-white mb-5 text-center font-semibold tracking-tight ">
-        Explore some of my projects
+        <h2>Explore some of my projects</h2>
       </header>
       <div className="flex flex-col md:flex-row justify-center pb-1 gap-5 md:gap-8 self-stretch max-md:max-w-full max-md:mt-10">
         {projectData.map((project, index) => (

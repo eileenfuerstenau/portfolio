@@ -20,10 +20,10 @@ export const ExperienceCard = (props: ExperienceCardProps) => {
     >
       <CardHeader className="justify-between">
         <div className="flex flex-col gap-1 items-start justify-center">
-          <h2 className="text-medium md:text-screenMedium text-orange font-semibold">
+          <h3 className="text-medium md:text-screenMedium text-orange font-semibold">
             {title}
-          </h2>
-          <h3 className="font-semibold">{subtitle}</h3>
+          </h3>
+          <h4 className="font-semibold">{subtitle}</h4>
         </div>
       </CardHeader>
       <CardBody className="px-3 py-0 text-small md:text-screenSmall">

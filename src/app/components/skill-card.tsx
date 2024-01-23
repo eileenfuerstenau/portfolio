@@ -21,12 +21,13 @@ export const SkillCard = (props: SkillCardProps) => {
             alt={`${iconDescription} Icon`}
             style={{
               maxWidth: "100%",
-              height: "auto"
-            }} />
+              height: "auto",
+            }}
+          />
           <div className="flex flex-col gap-1 items-start justify-center">
-            <h2 className="text-medium md:text-screenMedium font-semibold">
+            <h3 className="text-medium md:text-screenMedium font-semibold">
               {title}
-            </h2>
+            </h3>
           </div>
         </div>
       </CardHeader>

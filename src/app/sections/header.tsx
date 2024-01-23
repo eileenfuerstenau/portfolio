@@ -8,7 +8,7 @@ export default function Header() {
         priority
         width={1000}
         height={1000}
-        alt="Page Header"
+        alt="Decorative Page Header"
         style={{
           maxWidth: "100%",
           height: "auto",

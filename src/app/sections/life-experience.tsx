@@ -32,7 +32,7 @@ export default function LifeExperience() {
   return (
     <div className="flex w-full flex-col justify-center items-center px-4 py-6 max-md:max-w-full max-md:px-5">
       <header className="text-isLarge md:text-screenLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
-        Some thoughts on life
+        <h2>Some thoughts on life</h2>
       </header>
       <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10 mb-3">
         I believe that a person&apos;s personal and professional lives are
