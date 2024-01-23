@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Headline() {
   return (
     <div className="bg-hero flex-col overflow-hidden relative flex min-h-[120px] md:min-h-[160px] w-full justify-center items-center max-md:max-w-full max-md:px-5">

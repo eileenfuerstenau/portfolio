@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
 
 export type SkillCardProps = {
@@ -15,7 +15,7 @@ export const SkillCard = (props: SkillCardProps) => {
       <CardHeader className="p-2 justify-between">
         <div className="flex flex-col gap-2 w-full items-center">
           <Image
-            src={`${iconDescription}Icon.svg`}
+            src={`/${iconDescription}Icon.svg`}
             width={30}
             height={30}
             alt={`${iconDescription} Icon`}

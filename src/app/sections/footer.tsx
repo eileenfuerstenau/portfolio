@@ -1,4 +1,3 @@
-import { Button } from "@nextui-org/react";
 import React from "react";
 import Image from "next/image";
 import { Divider } from "@nextui-org/react";
@@ -21,7 +20,7 @@ function Footer() {
           linkUrl="https://github.com/eileenfuerstenau"
           variant={"bordered"}
           startContent={
-            <Image src={"githubIcon.svg"} width={20} height={20} alt="Icon" />
+            <Image src={"/githubIcon.svg"} width={20} height={20} alt="Icon" />
           }
           buttonText="Follow me on GitHub"
         />
@@ -36,7 +35,7 @@ function Footer() {
             linkUrl="https://www.linkedin.com/in/eileen-f%C3%BCrstenau-profile/"
             variant="solid"
             endContent={
-              <Image src={"arrowIcon.svg"} width={20} height={20} alt="Icon" />
+              <Image src={"/arrowIcon.svg"} width={20} height={20} alt="Icon" />
             }
             buttonText="Reach out"
           />

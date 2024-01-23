@@ -1,7 +1,6 @@
 "use client";
 import { Button, ButtonProps, Link } from "@nextui-org/react";
 import React from "react";
-import Image from "next/image";
 
 export type ButtonComponentProps = {
   variant: ButtonProps["variant"];
