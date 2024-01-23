@@ -31,7 +31,7 @@ export default function Projects() {
       <header className="text-isLarge md:text-screenLarge text-white mb-5 text-center font-semibold tracking-tight ">
         <h2>Explore some of my projects</h2>
       </header>
-      <div className="flex flex-col md:flex-row justify-center pb-1 gap-5 md:gap-8 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="flex flex-col md:flex-row justify-center pb-1 gap-5 md:gap-8 max-md:max-w-full max-md:mt-10">
         {projectData.map((project, index) => (
           <ProjectCard
             key={index}

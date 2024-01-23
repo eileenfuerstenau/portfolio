@@ -6,7 +6,7 @@ function AboutMe() {
       <header className="text-isLarge md:text-screenLarge mb-5 text-center font-semibold tracking-tight">
         <h2>About Me</h2>
       </header>
-      <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
+      <p className="text-black text-center font-light tracking-tight max-md:max-w-full max-md:mt-10">
         <span>My name is Eileen and I am a creative and determined </span>
         <span className="font-semibold">web developer</span>
         <span>

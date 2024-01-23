@@ -18,16 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <title>
-          Personal Website of Web Developer Eileen Fuerstenau from Hamburg
-        </title>
-        <meta
-          name="description"
-          content="Explore the digital journey of Eileen Fuerstenau, a passionate female Web Developer. Dive into her CV, discover her projects, and gain insights into her outlook on life and the world in the tech industry."
-          key="desc"
-        />
-      </Head>
       <body>
         <Providers>
           <main className="max-w-5xl my-0 mx-auto font-urbanist text-small md:text-screenSmall flex flex-col justify-center items-center text-balance">

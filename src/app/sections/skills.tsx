@@ -33,7 +33,7 @@ export default function Skills() {
       <header className="text-isLarge md:text-screenLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
         <h2> I specialize in a range of skills</h2>
       </header>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-5 max-md:max-w-full max-md:mt-10">
         {skillsData.map((skill, index) => (
           <SkillCard
             key={index}

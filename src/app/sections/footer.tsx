@@ -10,7 +10,7 @@ function Footer() {
         <header className="text-isLarge md:text-screenLarge text-white mb-5 text-center font-semibold tracking-tight">
           <h2>Contact Me</h2>
         </header>
-        <p className="text-medium md:text-screenMedium text-white text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10">
+        <p className="text-medium md:text-screenMedium text-white text-center font-light tracking-tight max-md:max-w-full max-md:mt-10">
           If my words or work have inspired you in any way, feel free to reach
           out. <br /> I&apos;m always open to new experiences, learning, and
           creating, <br /> whether it&apos;s discovering new places, meeting new

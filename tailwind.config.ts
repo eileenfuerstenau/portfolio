@@ -36,8 +36,7 @@ const tailwindConfig: Config = {
       },
       colors: {
         white: "#ffffff",
-        lightOrange: "#FB6514",
-        orange: "#CE4A03",
+        orange: "#FB6514",
         lightGrey: "#53536A",
         darkGrey: "#171717",
       },

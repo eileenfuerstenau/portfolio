@@ -34,7 +34,7 @@ export default function LifeExperience() {
       <header className="text-isLarge md:text-screenLarge text-orange-500 mb-5 text-center font-semibold tracking-tight">
         <h2>Some thoughts on life</h2>
       </header>
-      <p className="text-black text-center font-light tracking-tight self-stretch max-md:max-w-full max-md:mt-10 mb-3">
+      <p className="text-black text-center font-light tracking-tight max-md:max-w-full max-md:mt-10 mb-3">
         I believe that a person&apos;s personal and professional lives are
         inseparable, as we are always whole individuals, regardless of the
         context. Therefore, my personal beliefs and values inevitably influence
@@ -45,7 +45,7 @@ export default function LifeExperience() {
         encountered, and the various influences and inputs that enrich my daily
         life.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-5 self-stretch max-md:max-w-full max-md:mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-5 max-md:max-w-full max-md:mt-10">
         {experiencesData.map((experience, index) => (
           <ExperienceCard
             key={index}

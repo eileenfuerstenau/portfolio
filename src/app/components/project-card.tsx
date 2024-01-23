@@ -41,7 +41,7 @@ export const ProjectCard = (props: SkillCardProps) => {
         <CardBody className="px-3">
           {Object.entries(projectDescription).map(([key, value]) => (
             <div key={key}>
-              <div className="text-small md:text-screenSmall font-semibold self-stretch mt-3 max-md:max-w-full">
+              <div className="text-small md:text-screenSmall font-semibold mt-3 max-md:max-w-full">
                 <ul>
                   <li className="text-orange">
                     {key
@@ -55,9 +55,7 @@ export const ProjectCard = (props: SkillCardProps) => {
                   </li>
                 </ul>
               </div>
-              <p className="text-lightgrey self-stretch mt-1 max-md:max-w-full">
-                {value}
-              </p>
+              <p className="text-lightgrey   mt-1 max-md:max-w-full">{value}</p>
             </div>
           ))}
         </CardBody>
