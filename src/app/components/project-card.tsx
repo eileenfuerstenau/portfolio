@@ -55,7 +55,7 @@ export const ProjectCard = (props: SkillCardProps) => {
                   </li>
                 </ul>
               </div>
-              <p className="text-gray-400 self-stretch mt-1 max-md:max-w-full">
+              <p className="text-lightgrey self-stretch mt-1 max-md:max-w-full">
                 {value}
               </p>
             </div>

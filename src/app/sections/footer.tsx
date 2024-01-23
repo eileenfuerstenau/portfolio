@@ -16,9 +16,13 @@ function Footer() {
           creating, <br /> whether it&apos;s discovering new places, meeting new
           people, or finding new energy.
         </p>
+        <p className="sr-only">
+          Also, if you have read until this point, I owe you a beer!
+        </p>
         <ButtonComponent
           linkUrl="https://github.com/eileenfuerstenau"
           variant={"bordered"}
+          textColor="white"
           startContent={
             <Image
               src={"/githubIcon.svg"}

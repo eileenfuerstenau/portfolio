@@ -15,7 +15,7 @@ export const ExperienceCard = (props: ExperienceCardProps) => {
   return (
     <Card
       className={`${
-        hasCenteredContent && "bg-orange hidden md:flex"
+        hasCenteredContent && "bg-lightOrange hidden md:flex"
       } max-w-[340px] border-none shadow-md p-2 rounded-xl`}
     >
       <CardHeader className="justify-between">

@@ -2,7 +2,7 @@ export default function Headline() {
   return (
     <div className="bg-hero flex-col overflow-hidden relative flex min-h-[120px] md:min-h-[160px] w-full justify-center items-center max-md:max-w-full max-md:px-5">
       <div className="relative flex flex-col items-stretch md:max-w-full max-md:my-10">
-        <h1 className="hidden">
+        <h1 className="sr-only">
           Hello! My name is Eileen, I am a Web Developer and this is my personal
           website.
         </h1>

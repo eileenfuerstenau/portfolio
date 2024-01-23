@@ -8,16 +8,18 @@ export type ButtonComponentProps = {
   endContent?: React.ReactNode;
   startContent?: React.ReactNode;
   buttonText: string;
+  textColor?: string;
 };
 
 export const ButtonComponent = (props: ButtonComponentProps) => {
-  const { variant, linkUrl, startContent, endContent, buttonText } = props;
+  const { variant, linkUrl, startContent, endContent, buttonText, textColor } =
+    props;
   return (
     <Button
       href={linkUrl}
       as={Link}
       color="secondary"
-      className="my-5"
+      className={`${textColor && `text-${textColor}`} my-5`}
       startContent={startContent}
       endContent={endContent}
       variant={variant}
