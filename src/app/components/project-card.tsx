@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 type ProjectDescription = {
   projectAim: string;
@@ -31,7 +31,10 @@ export const ProjectCard = (props: SkillCardProps) => {
               height={50}
               alt="Coding Icon"
               className="self-start"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
         </CardHeader>
         <CardBody className="px-3">
