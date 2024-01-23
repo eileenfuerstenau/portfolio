@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 type ProjectDescription = {
   projectAim: string;
