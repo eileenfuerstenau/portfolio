@@ -17,7 +17,7 @@ export default function Header() {
       />
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-3/5">
         <Image
-          src={"/me.png"}
+          src={"/yo.webp"}
           alt="Picture of Author"
           className="object-contain !relative"
           fill

@@ -28,8 +28,8 @@ const tailwindConfig: Config = {
     },
     extend: {
       backgroundImage: {
-        hero: "url('/heroLines.svg')",
-        heroBlock: "url('/heroBlock.svg')",
+        hero: "url('/heroLines.webp')",
+        heroBlock: "url('/heroBlock.webp')",
       },
       fontFamily: {
         urbanist: ["var(--font-urbanist)"],

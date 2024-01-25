@@ -13,7 +13,7 @@ const projectData = [
     },
   },
   {
-    title: "Manufacturer of Outdoor Equipment",
+    title: "Outdoor Equipment Manufacturer",
     projectDescription: {
       projectAim:
         "Developing a web platform for a new product line, aiding market entry. Supported staff by providing product information and configuration options.",
