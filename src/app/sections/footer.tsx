@@ -42,7 +42,7 @@ function Footer() {
       <div className="bg-black sticky md:static bottom-0 z-10 flex justify-center w-full">
         <div className="flex justify-around w-11/12 items-center">
           <p className="py-5 text-medium md:text-screenMedium text-white">
-            Lets connect!
+            Let&apos;s connect!
           </p>
           <ButtonComponent
             linkUrl="https://www.linkedin.com/in/eileen-f%C3%BCrstenau-profile/"

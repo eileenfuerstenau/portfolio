@@ -14,7 +14,7 @@ const experiencesData = [
   {
     subtitle: "Collaboration",
     content:
-      "I firmly believe in the power of collaboration and mutual respect. By working together and embracing our differences, we can achieve far more than we could on our own. That's why I strive to listen to others with an open mind, treat them with kindness and empathy.",
+      "I firmly believe in the power of collaboration and mutual respect. By working together and embracing our differences, we can achieve far more than we could on our own. That's why I strive to listen to others with an open mind and treat them with kindness and empathy.",
   },
   {
     subtitle: "Impact",
