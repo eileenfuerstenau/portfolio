@@ -13,7 +13,7 @@ export default function Headline() {
           I am dedicated to crafting digital products <br /> in fast-paced
           teams.
         </p>
-        <p className="hidden">My claim:</p>
+        <p className="sr-only">My claim:</p>
         <p
           className="text-xlarge md:text-screenXlarge text-white text-center text-testing font-semibold tracking-tighter self-center max-w-[541px] max-md:max-w-full max-md:leading-10"
           aria-label="Headline Title"
